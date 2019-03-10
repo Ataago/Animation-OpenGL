@@ -1,0 +1,10 @@
+﻿  main.cpp
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\animate_textzoom.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\animate_textzoom.h(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\animate_textzoom.h(16): warning C4305: '=': truncation from 'double' to 'float'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame2.h(11): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame2.h(12): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\main.cpp(124): warning C4305: '=': truncation from 'double' to 'float'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\main.cpp(131): warning C4305: '=': truncation from 'double' to 'float'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\main.cpp(138): warning C4305: '=': truncation from 'double' to 'float'
+  GOwatchAnimation.vcxproj -> E:\Git\Animation-OpenGL\GOwatchAnimation\Debug\GOwatchAnimation.exe
