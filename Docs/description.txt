@@ -1,0 +1,24 @@
+GO Smart Watch Animated 
+AD
+
+Scene 1: 
+	
+In the first scene, we are greeted with a welcome splash screen.
+	The scene begins at 17:30 hours in a park, where the
+	main character X is seen jogging. Suddenly, X collapses. 15 mins later
+	we see an Ambulance Reach the Scene to rescue Character X.
+	But it was too late and Character X is declared Dead.
+
+
+Scene 2:
+	Now, the Animation shifts to the next scene where we see another
+	Character S jogging in a park. He also suffers from similar misfortune
+	and fells on the ground. But luckily he uses GO Smart Watch for keeping 
+	track of his fitness. As soon as the watch detects that Character S's condition 
+	it finds the nearest Hospital and sends the Live ECG reports to the hospital 
+	with his live location. 
+	
+		Within no time Cardio Ambulance arrives the scene and Character S
+	is saved. 
+
+	GO watch Built with Your Heart in Mind!

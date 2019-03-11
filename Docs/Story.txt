@@ -1,0 +1,21 @@
+Smart Watch Story Card
+
+Scene 1 (Colony)
+	- Mr X is seen running in a deserted Colony.
+	- He is carrying out his daily workout.
+	- Suddenly he collapses with a chest pain.
+	- After few mins he is found lying unconscious by a passerby.
+	- Immediately the on looker calls the ambulance.
+	- Ambulance arrives in 15mins.
+	- Alas, it was too late by the time Mr. X was taken to the Hospital.
+
+Scene 2 (Park)
+	- Mr S starts his daily workout in the park.
+	- As usual he sets the workout Goals in his Smart Watch.
+	- While running Mr. S suddenly fell on the ground.
+	- His smart watch is smart enough to recognise Mr S to be unconscious.
+	- The smart watch sends his Heart graph to the Near by Hospital.
+	- A cardio Ambulance is Arranged quickly and reaches the park in no time.
+
+Conclusion:
+	Smart Watch saved the Life of a person.

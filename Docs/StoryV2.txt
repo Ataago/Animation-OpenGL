@@ -1,0 +1,161 @@
+----------------------------------------------------------------------------------------
+
+
+GO smart Watch Story board for animated AD.
+
+
+Frame 0: (TEXT)
+	GO smart Watch Animated AD.
+	Press "E" to Play.
+
+
+
+Frame 1: (TEXT) - Scene I
+	
+
+	2015
+
+	
+
+Frame 2:
+	In Kumaraswamy Layout...
+
+Frame 3:
+	Time: 17:30HRS
+	
+
+
+
+Frame 4: (Road and Buildings)
+	
+	Character X is seen jogging. 
+	
+	Character X collapses suddenly.
+
+
+
+
+
+Frame 5: (TEXT)
+	
+	5 mins later...
+
+
+
+Frame 4: (Road and Buildings)
+	
+	Character F walks by and notices Character X.
+	
+	Character F uses his phone to call EMERGENCY.
+
+
+
+
+Frame 5: (TEXT)
+	
+	15 mins later...
+
+
+
+
+Frame 6: (Road and Buildings)
+	
+	AMBULANCE reaches the scene.
+	
+	Character X is declared dead.
+	
+
+
+
+Frame 7: (TEXT) - Shifting to scene II
+	
+	Present Day...
+	
+	In Kumaraswamy Layout
+	
+	Time: 18:00HRS
+
+
+
+Frame 8: (Road and Buildings)
+	
+	Character S is seen jogging. 
+	
+	Character S collapses suddenly.
+	
+
+
+
+Frame 9: (Focus shifts to Character S's hand with Smart watch(GO))
+	
+	GO Watch detects the fall.
+	
+	Sending Emergency Signal in 5secs.
+	
+	Counter starts for 5secs.
+	4
+	3
+	2
+	1
+	
+	Locating Nearby Hospital...
+	
+	sending Live ECG to Hospital...
+
+
+
+Frame 10: (TEXT)
+	
+	5 mins later...
+
+Frame 11:
+	
+	Cardio Ambulance reaches the scene.
+	
+	Character S is saved.
+	
+
+
+
+Frame 12: (TEXT)
+	
+	GO watch is a life saving Band.
+
+
+
+
+Frame 13: (GO WATCH animation)
+	
+	Design Show case in 3D animation.
+
+
+
+Frame 14: (TEXT)
+	
+	GO WATCH
+	
+	Thank you
+	
+	Project done on OpenGL by..
+		Arvind
+		Chandana
+		Ataa
+	
+------------------------------------------------------------------------------------------------------------------------
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
