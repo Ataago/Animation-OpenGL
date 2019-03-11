@@ -47,5 +47,14 @@
     <ClInclude Include="frame4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="animate_walk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

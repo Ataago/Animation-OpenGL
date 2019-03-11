@@ -125,13 +125,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animate_textZoom.h" />
+    <ClInclude Include="animate_walk.h" />
     <ClInclude Include="frame0.h" />
     <ClInclude Include="frame1.h" />
     <ClInclude Include="frame2.h" />
     <ClInclude Include="frame3.h" />
     <ClInclude Include="frame4.h" />
+    <ClInclude Include="frame5.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="test.h" />
+    <ClInclude Include="variables.h" />
     <ClInclude Include="writeText.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

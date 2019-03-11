@@ -18,13 +18,8 @@
 
 #include "Header.h"
 
-#define W_WIDTH 1920
-#define W_HEIGHT 1080
-#define UNIT 960
-#define ESC 27
-#define SPACE 32
 
-int frame = 0;
+
 
 void myInit();
 void myReshape(int w, int h);
@@ -37,7 +32,7 @@ void control();
 int main(int argc, char **argv)
 {
 	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
+	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
 
 	glutInitWindowPosition(0, 0);	// Window location
 	glutInitWindowSize(W_WIDTH, W_HEIGHT);
@@ -57,25 +52,31 @@ int main(int argc, char **argv)
 
 void myInit()
 {
+	glEnable(GL_DEPTH_TEST);
+
 	glViewport(0, 0, W_WIDTH, W_HEIGHT);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	glOrtho(-UNIT * (GLfloat)W_WIDTH / (GLfloat)W_HEIGHT, UNIT * (GLfloat)W_WIDTH / (GLfloat)W_HEIGHT, -UNIT, UNIT, -UNIT, UNIT);
+	glOrtho(-UNIT * ASPECTRATIO, UNIT * ASPECTRATIO, -UNIT, UNIT, -UNIT, UNIT);
 	glMatrixMode(GL_MATRIX_MODE);
 }
 
 void myReshape(int w, int h)
 {
-	GLfloat a = (GLfloat)w / (GLfloat)h;
+	ASPECTRATIO = (GLfloat) w / (GLfloat) h;
 
 	glViewport(0, 0, w, h);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	if (w > h)
-		glOrtho(-UNIT * a, UNIT * a, -UNIT, UNIT, -UNIT, UNIT);
+		glOrtho(-UNIT * ASPECTRATIO, UNIT * ASPECTRATIO, -UNIT, UNIT, -UNIT, UNIT);
 	else
-		glOrtho(-UNIT, UNIT, -UNIT / a, UNIT / a, -UNIT, UNIT);
+		glOrtho(-UNIT, UNIT, -UNIT / ASPECTRATIO, UNIT / ASPECTRATIO, -UNIT, UNIT);
 	glMatrixMode(GL_MODELVIEW);
+
+	// Update the window width and height.
+	W_WIDTH = w;
+	W_HEIGHT = h;
 }
 
 void myKeyboard(unsigned char key, int x, int y)
@@ -90,7 +91,7 @@ void myKeyboard(unsigned char key, int x, int y)
 
 void myDisplay()
 {
-	glClear(GL_COLOR_BUFFER_BIT);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	switch (frame)
 	{
@@ -99,6 +100,7 @@ void myDisplay()
 	case 2:	frame2();	break;
 	case 3:	frame3();	break;
 	case 4: frame4();	break;
+	case 5: frame5();	break;
 
 //  case x: frameX(); break;
 	default:
@@ -135,11 +137,18 @@ void control()
 	if (frame == 3)
 		if (!animate_textZoom())
 		{
-			speed = 0.01;
+			speed = 5;
 			frame++;
 		}
 
 	if (frame == 4)
+		if (!animate_walk())
+		{
+			speed = 0.1;
+			frame++;
+		}
+
+	if (frame == 5)
 		return;
 
 	/*

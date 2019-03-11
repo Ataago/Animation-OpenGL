@@ -9,12 +9,6 @@
 //	text appears to zoom 
 //
 
-#include <GL/glut.h>
-
-
-float scale = 0.1;
-float speed = 0.01;
-
 bool animate_textZoom()
 {
 	if (scale > 1)
