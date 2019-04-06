@@ -317,7 +317,6 @@ void control()
 		{
 			speed = 0.006;
 			window3D = 1;
-			frame++;
 		}
 		break;
 

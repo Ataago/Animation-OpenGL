@@ -25,7 +25,7 @@ void frame4()
 	{
 		glPushMatrix();
 		glTranslated(moveX, 0, 0);
-		glTranslated(-UNIT * aspectRatio + 200, 0, 0);
+		glTranslated(-UNIT * aspectRatio, 0, 0);
 		charX();
 		glPopMatrix();
 	}
@@ -43,7 +43,7 @@ void frame4()
 		{
 			glPushMatrix();
 			glTranslated(moveX1, 0, 0);
-			glTranslated(UNIT, 0, 0);
+			glTranslated(UNIT , 0, 0);
 			passerby();
 			glPopMatrix();
 		}
@@ -76,6 +76,7 @@ void charX()
 
 	// Head
 	glPushMatrix();
+	glColor3f(0.8, 0.5, 0.3);
 	glTranslated(0, moveY - 10, 0);
 	rectangleD(-50, -50, 50, 50, 0);
 	glPopMatrix();
@@ -83,15 +84,17 @@ void charX()
 
 	// Body
 	glPushMatrix();
+	glColor3f(0.7, 0, 0.9);
 	glTranslated(0, -200, 0);
 	rectangleD(-50, -100, 50, 100, 0);
 	glPopMatrix();
 
 
-	glColor3f(1, 0, 0);
+	
 
 	// Right Leg
 	glPushMatrix();
+	glColor3f(0.8, 0.5, 0.3);
 	glTranslated(0, -400, 0);
 
 	glTranslated(0, 90, 0);
@@ -103,7 +106,7 @@ void charX()
 	glPopMatrix();
 
 	// Left Leg
-	glColor3f(1, 1, 0);
+	glColor3f(0.7, 0.4, 0.2);
 	glPushMatrix();
 	glTranslated(0, -400, 0);
 
@@ -116,7 +119,7 @@ void charX()
 	glPopMatrix();
 
 	// Right Hand
-	glColor3f(1, 0, 0);
+	glColor3f(0.8, 0.5, 0.3);
 	glPushMatrix();
 	glTranslated(0, -200, 0);
 
@@ -128,7 +131,7 @@ void charX()
 	glPopMatrix();
 
 	// Left Hand
-	glColor3f(1, 1, 0);
+	glColor3f(0.7, 0.4, 0.2);
 	glPushMatrix();
 	glTranslated(0, -200, 0);                                             
 
@@ -146,6 +149,7 @@ void passerby()
 
 	// Head
 	glPushMatrix();
+	glColor3d(0.5, 0.2, 0);
 	glTranslated(0, moveY - 10, 0);
 	rectangleD(-50, -50, 50, 50, 0);
 	glPopMatrix();
@@ -153,6 +157,7 @@ void passerby()
 
 	// Body
 	glPushMatrix();
+	glColor3d(0.7, 0, 0.4);
 	glTranslated(0, -200, 0);
 	rectangleD(-50, -100, 50, 100, 0);
 	glPopMatrix();
@@ -162,6 +167,8 @@ void passerby()
 
 	// Right Leg
 	glPushMatrix();
+	glColor3d(0.5, 0.2, 0);
+
 	glTranslated(0, -400, 0);
 
 	glTranslated(0, 90, 0);
@@ -173,7 +180,7 @@ void passerby()
 	glPopMatrix();
 
 	// Left Leg
-	glColor3f(1, 1, 0);
+	glColor3d(0.4, 0.1, 0);
 	glPushMatrix();
 	glTranslated(0, -400, 0);
 
@@ -186,7 +193,7 @@ void passerby()
 	glPopMatrix();
 
 	// Right Hand
-	glColor3f(1, 0, 0);
+	glColor3d(0.5, 0.2, 0);
 	glPushMatrix();
 	glTranslated(0, -200, 0);
 
@@ -198,7 +205,7 @@ void passerby()
 	glPopMatrix();
 
 	// Left Hand
-	glColor3f(1, 1, 0);
+	glColor3d(0.4, 0.1, 0);
 	glPushMatrix();
 	glTranslated(0, -200, 0);
 
@@ -212,12 +219,44 @@ void passerby()
 
 void background1()
 {
+	glPushMatrix();
+	glTranslated(UNIT / 2, -UNIT / 2.5, 0);
+	tree(4, -9);
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslated(UNIT * aspectRatio, -UNIT / 2.5, 0);
+	tree(5, -9);
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslated(-UNIT, -UNIT / 2.5, 0);
+	tree(6, -9);
+	glPopMatrix();
+
 	glBegin(GL_POLYGON);
 	glColor3d(0, 0, 0.5);
 	glVertex3d(-UNIT * aspectRatio, -UNIT, -10);
 	glVertex3d( UNIT * aspectRatio, -UNIT, -10);
 	glVertex3d( UNIT * aspectRatio,  UNIT, -10);
 	glVertex3d(-UNIT * aspectRatio,  UNIT, -10);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3d(0, 0, 0);
+	glVertex3d(-UNIT * aspectRatio, -UNIT, -9);
+	glVertex3d(UNIT * aspectRatio, -UNIT, -9);
+	glVertex3d(UNIT * aspectRatio, -UNIT / 2, -9);
+	glVertex3d(-UNIT * aspectRatio, -UNIT / 2, -9);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3d(0.3, 1, 0.3);
+	glVertex3d(-UNIT * aspectRatio, -UNIT / 2, -9);
+	glVertex3d(UNIT * aspectRatio, -UNIT / 2, -9);
+	glColor3d(0.3, 0.3, 1);
+	glVertex3d(UNIT * aspectRatio, UNIT, -9);
+	glVertex3d(-UNIT * aspectRatio, UNIT, -9);
 	glEnd();
 }
 

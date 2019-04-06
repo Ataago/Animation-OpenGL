@@ -151,7 +151,7 @@
     <ClInclude Include="frame9.h" />
     <ClInclude Include="frameEnd.h" />
     <ClInclude Include="Header.h" />
-    <ClInclude Include="test.h" />
+    <ClInclude Include="Objects.h" />
     <ClInclude Include="variables.h" />
     <ClInclude Include="writeText.h" />
   </ItemGroup>

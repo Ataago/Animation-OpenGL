@@ -1,10 +1,17 @@
 ﻿  main.cpp
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\objects.h(58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame1.h(18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
 e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame2.h(12): warning C4305: 'initializing': truncation from 'double' to 'float'
 e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame2.h(13): warning C4305: 'initializing': truncation from 'double' to 'float'
 e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame2.h(22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
 e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame3.h(19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
 e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame4.h(57): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame4.h(79): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame4.h(87): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame4.h(97): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame4.h(109): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame4.h(122): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame4.h(134): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
 e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame5.h(18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
 e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame7.h(18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
 e:\git\animation-opengl\gowatchanimation\gowatchanimation\frame8.h(18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data

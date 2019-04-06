@@ -18,8 +18,8 @@
 #include <time.h>
 
 
-#include "test.h"
 #include "variables.h"
+#include "Objects.h"
 #include "writeText.h"
 #include "animate_textZoom.h"
 #include "animate_walk.h"

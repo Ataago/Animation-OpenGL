@@ -38,3 +38,36 @@ void ambulance()
 {
 	rectangleD(-400, -200, 400, 200, 2);
 }
+
+
+void leaf(double x, double z)
+{
+	glBegin(GL_POLYGON);
+	glVertex3d(-x, -x / 3, z);
+	glVertex3d(x, -x / 3, z);
+	glVertex3d(0, x * 0.65, z);
+	glEnd();
+}
+
+void tree(double h, double z)
+{
+	green = 1;
+
+	glPushMatrix();
+	glTranslated(0, h * 170, 0);
+	for (int i = h; i > 0; i--)
+	{
+		glPushMatrix();
+		glColor3d(0.2, green, 0.2);
+		glTranslated(0, -h * 120 / i, 0);
+		leaf(h * 100 / i, z);
+		glPopMatrix();
+
+		green -= 0.1;
+	}
+	glPopMatrix();
+
+	glColor3d(0.3, 0.1, 0.1);
+	rectangleD(-40, -100, 40, 100, z);
+
+}

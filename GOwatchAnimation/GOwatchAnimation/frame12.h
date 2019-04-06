@@ -11,8 +11,8 @@
 
 void frame12()
 {
-	char string12_1[] = "GO Watch detects the fall";
-	char string12_2[] = "Sending Emergency Signal in 5secs";
+	char string12_1[] = "Fall Detected";
+	char string12_2[] = "Sending Emergency Signal in 5s";
 
 	glPushMatrix();
 	glTranslated(-600, 300, 0);

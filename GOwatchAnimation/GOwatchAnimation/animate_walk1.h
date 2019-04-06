@@ -9,7 +9,7 @@
 
 bool animate_walk1()
 {
-	if (moveX1 < 0 )		// Stop the walk at the mid of the screen.
+	if (moveX1 <= 0 )		// Stop the walk at the mid of the screen.
 	{
 		angle2 = 0;
 		flag_fall = 3;

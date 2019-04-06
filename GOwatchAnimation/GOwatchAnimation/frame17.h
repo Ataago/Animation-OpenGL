@@ -11,7 +11,7 @@
 
 void frame17()
 {
-	// Back Logo
+	// Display ON
 	char string17_1[] = "GO Watch";
 
 	glPushMatrix();

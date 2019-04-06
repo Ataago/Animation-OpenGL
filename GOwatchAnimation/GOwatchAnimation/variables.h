@@ -40,7 +40,7 @@ double moveY = 0.5;
 double moveX = 0;
 
 // Passer by
-double moveX1 = UNIT;
+double moveX1 = UNIT * 2;
 double angle2 = 0;
 
 // Ambulance
@@ -54,13 +54,7 @@ double angle_charS = 0;
 int flag_fallS = 0;
 double anglefall_charS = 0;
 
-// Look at Variables
-double eyex = 0;
-double eyey = 0;
-double eyez = -UNIT;
-double centerx = 0;
-double centery = 0;
-double centerz = 0;
-double upx = 0;
-double upy = UNIT;
-double upz = -UNIT;
+// Colors
+double red = 0;
+double green = 0;
+double blue = 0;
