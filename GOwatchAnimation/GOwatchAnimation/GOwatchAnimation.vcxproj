@@ -124,14 +124,32 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="animate_ambulance.h" />
+    <ClInclude Include="animate_fall.h" />
+    <ClInclude Include="animate_fallCharS.h" />
     <ClInclude Include="animate_textZoom.h" />
     <ClInclude Include="animate_walk.h" />
+    <ClInclude Include="animate_walk1.h" />
+    <ClInclude Include="animate_walkCharS.h" />
     <ClInclude Include="frame0.h" />
     <ClInclude Include="frame1.h" />
+    <ClInclude Include="frame10.h" />
+    <ClInclude Include="frame11.h" />
+    <ClInclude Include="frame12.h" />
+    <ClInclude Include="frame13.h" />
+    <ClInclude Include="frame14.h" />
+    <ClInclude Include="frame15.h" />
+    <ClInclude Include="frame16.h" />
+    <ClInclude Include="frame17.h" />
     <ClInclude Include="frame2.h" />
     <ClInclude Include="frame3.h" />
     <ClInclude Include="frame4.h" />
     <ClInclude Include="frame5.h" />
+    <ClInclude Include="frame6.h" />
+    <ClInclude Include="frame7.h" />
+    <ClInclude Include="frame8.h" />
+    <ClInclude Include="frame9.h" />
+    <ClInclude Include="frameEnd.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="variables.h" />

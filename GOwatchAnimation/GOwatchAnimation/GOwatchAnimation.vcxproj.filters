@@ -56,5 +56,59 @@
     <ClInclude Include="frame5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="animate_fall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="animate_walk1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="animate_ambulance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="animate_walkCharS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="animate_fallCharS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frameEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

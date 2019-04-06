@@ -6,9 +6,21 @@
 //  Copyright © 2019 Ataago. All rights reserved.
 //
 
+
 bool animate_walk()
 {
-	if (angle > 45)
+	if (moveX > UNIT * aspectRatio - 200)		// Stop the walk at the mid of the screen.
+	{
+		angle = 0;
+		flag_fall = 1;
+		return false;
+	}
+	else
+	{
+		moveX += speed * 2;
+	}
+
+	if (angle > 45)		// Anticlockwise
 	{
 		direction = 0;
 	}
@@ -28,15 +40,5 @@ bool animate_walk()
 		angle -= speed;
 		moveY -= 0.5;
 	}
-
-	if (moveX > UNIT * ASPECTRATIO * 2)
-	{
-		return false;
-	}
-	else
-	{
-		moveX += speed;
-	}
-
 	return true;
 }

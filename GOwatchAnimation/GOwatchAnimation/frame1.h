@@ -8,24 +8,17 @@
 //	Display 2015 and Animate
 //
 
-#include <GL/glut.h>
-#include <stdio.h>
-
 
 void frame1()
 {
-	glClear(GL_COLOR_BUFFER_BIT);
-	glClearColor(0, 0, 0, 0);
-	char buffer[256];
+	char string1_1[] = "2015";
 
 	// Display Text
 	glPushMatrix();
-	glLoadIdentity();
 	glScalef(scale, scale, 0);
 	glTranslatef(-120, 0, 0);
 	glColor3f(1, 0, 0);
-	strcpy_s(buffer, "2015");
-	drawText(buffer);
+	drawText(string1_1);
 	glPopMatrix();
 
 	glFlush();

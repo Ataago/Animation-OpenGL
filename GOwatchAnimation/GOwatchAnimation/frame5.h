@@ -1,5 +1,5 @@
 //
-//  frame4.h
+//  frame5.h
 //  GO watch Animation OpenGL
 //
 //  Created by Mohammed Ataa on 7/03/19.
@@ -8,8 +8,18 @@
 //	_________________________________________________________
 //
 
+
 void frame5()
 {
-	square(50);
+	char string5_1[] = "15 Mins later...";
+
+	// Display Text
+	glPushMatrix();
+	glScalef(scale, scale, 0);
+	glTranslatef(-200, 0, 0);
+	glColor3f(1, 0, 0);
+	drawText(string5_1);
+	glPopMatrix();
+
 	glFlush();
 }

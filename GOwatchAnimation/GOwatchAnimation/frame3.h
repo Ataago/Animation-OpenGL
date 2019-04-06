@@ -8,24 +8,18 @@
 //	Display "Time : 17 : 30HRS" and animate
 //
 
-#include <GL/glut.h>
-#include <stdio.h>
-
 
 void frame3()
 {
-	glClear(GL_COLOR_BUFFER_BIT);
-	glClearColor(0, 0, 0, 0);
-	char buffer[256];
+	char string3_1[] = "Time: 17:30 HRS";
 
 	// Display Text
 	glPushMatrix();
-	glLoadIdentity();
+	//glLoadIdentity();
 	glScalef(scale, scale, 0);
 	glTranslatef(-450, 0, 0);
 	glColor3f(1, 0, 0);
-	strcpy_s(buffer, "Time: 17:30 HRS");
-	drawText(buffer);
+	drawText(string3_1);
 	glPopMatrix();
 
 	glFlush();

@@ -1,4 +1,4 @@
-#include <GL/glut.h>
+
 
 void square(float x)
 {
@@ -22,4 +22,19 @@ void square0()
 	glVertex3f(-1, -1, 0);
 	glVertex3f(1, -1, 0);
 	glEnd();
+}
+
+void rectangleD(double x1, double y1, double x2, double y2, double z)
+{
+	glBegin(GL_POLYGON);
+	glVertex3d(x1, y1, z);
+	glVertex3d(x2, y1, z);
+	glVertex3d(x2, y2, z);
+	glVertex3d(x1, y2, z);
+	glEnd();
+}
+
+void ambulance()
+{
+	rectangleD(-400, -200, 400, 200, 2);
 }

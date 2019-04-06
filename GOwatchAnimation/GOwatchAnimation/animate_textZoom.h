@@ -9,6 +9,7 @@
 //	text appears to zoom 
 //
 
+
 bool animate_textZoom()
 {
 	if (scale > 1)

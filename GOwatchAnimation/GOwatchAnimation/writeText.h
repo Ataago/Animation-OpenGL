@@ -8,8 +8,6 @@
 //	Drawing Text on window
 //
 
-#include <GL/glut.h>
-
 
 void drawText(char *text)
 {
