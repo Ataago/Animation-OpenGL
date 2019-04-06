@@ -13,6 +13,8 @@
 #include <GL/glut.h>
 #endif
 
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"  // Remove deprecation warnings
+
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
