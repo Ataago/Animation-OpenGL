@@ -31,7 +31,7 @@ void frameEnd()
 
 	char stringEnd_3[] = "Done by:";
 	glPushMatrix();
-	glTranslatef(300, -200, 0);
+	glTranslatef(250, -200, 0);
 	glScaled(0.4, 0.4, 0);
 	glColor3f(1, 1, 0);
 	drawText(stringEnd_3);
@@ -39,7 +39,7 @@ void frameEnd()
 
 	char stringEnd_4[] = "Mohammed Ataaur Rahaman [1DS16CS721]";
 	glPushMatrix();
-	glTranslatef(500, -300, 0);
+	glTranslatef(300, -300, 0);
 	glScaled(0.4, 0.4, 0);
 	glColor3f(1, 1, 0);
 	drawText(stringEnd_4);
@@ -47,7 +47,7 @@ void frameEnd()
 
 	char stringEnd_5[] = "Chandana KS [1DS16CS7  ]";
 	glPushMatrix();
-	glTranslatef(500, -400, 0);
+	glTranslatef(300, -400, 0);
 	glScaled(0.4, 0.4, 0);
 	glColor3f(1, 1, 0);
 	drawText(stringEnd_5);
@@ -55,7 +55,7 @@ void frameEnd()
 
 	char stringEnd_6[] = "Arvind Babu [1DS16CS706]";
 	glPushMatrix();
-	glTranslatef(500, -500, 0);
+	glTranslatef(300, -500, 0);
 	glScaled(0.4, 0.4, 0);
 	glColor3f(1, 1, 0);
 	drawText(stringEnd_6);

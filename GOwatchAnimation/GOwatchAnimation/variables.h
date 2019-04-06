@@ -14,6 +14,7 @@
 #define ESC 27
 #define SPACE 32
 #define f 102
+#define PI 3.14159
 
 #define w 119
 #define a 97

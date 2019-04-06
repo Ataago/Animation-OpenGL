@@ -38,6 +38,6 @@ void frame0()
 	glColor3f(1, 1, 0);
 	drawText(string0_3);
 	glPopMatrix();
-
+	
 	glFlush();
 }

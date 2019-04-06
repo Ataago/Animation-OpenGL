@@ -8,17 +8,6 @@
 //	_________________________________________________________
 //
 
-//
-//  frame4.h
-//  GO watch Animation OpenGL
-//
-//  Created by Mohammed Ataa on 7/03/19.
-//  Copyright © 2019 Ataago. All rights reserved.
-//
-//	Character X is seen jogging. 
-//	Character X collapses suddenly.
-//
-
 
 
 void charS();
@@ -58,24 +47,24 @@ void charS()
 
 	// Head
 	glPushMatrix();
-	glTranslated(0, moveY - 10, 0);
+	glColor3d(0.5, 0.2, 0);
+	glTranslated(0, moveY - 20, 0);
 	rectangleD(-50, -50, 50, 50, 0);
 	glPopMatrix();
 
 
 	// Body
 	glPushMatrix();
+	glColor3d(0.7, 0, 0.4);
 	glTranslated(0, -200, 0);
 	rectangleD(-50, -100, 50, 100, 0);
 	glPopMatrix();
 
 
-	glColor3f(1, 0, 0);
-
 	// Right Leg
 	glPushMatrix();
 	glTranslated(0, -400, 0);
-
+	glColor3d(0.5, 0.2, 0);
 	glTranslated(0, 90, 0);
 	glRotated(-angle_charS, 0, 0, 1);
 	glTranslated(0, -90, 0);
@@ -85,7 +74,7 @@ void charS()
 	glPopMatrix();
 
 	// Left Leg
-	glColor3f(1, 1, 0);
+	glColor3d(0.4, 0.1, 0);
 	glPushMatrix();
 	glTranslated(0, -400, 0);
 
@@ -98,7 +87,7 @@ void charS()
 	glPopMatrix();
 
 	// Right Hand
-	glColor3f(1, 0, 0);
+	glColor3d(0.5, 0.2, 0);
 	glPushMatrix();
 	glTranslated(0, -200, 0);
 
@@ -114,7 +103,7 @@ void charS()
 	glPopMatrix();
 
 	// Left Hand
-	glColor3f(1, 1, 0);
+	glColor3d(0.4, 0.1, 0);
 	glPushMatrix();
 	glTranslated(0, -200, 0);
 
@@ -129,14 +118,41 @@ void charS()
 
 void background2019()
 {
+	// Tree 1
+	glPushMatrix();
+	glTranslated(UNIT / 2, -UNIT / 2.5, 0);
+	tree(7, -9);
+	glPopMatrix();
+
+	// Tree 2
+	glPushMatrix();
+	glTranslated(UNIT * aspectRatio, -UNIT / 2.5, 0);
+	tree(3, -9);
+	glPopMatrix();
+
+	// Tree 3
+	glPushMatrix();
+	glTranslated(-UNIT, -UNIT / 2.5, 0);
+	tree(4, -9);
+	glPopMatrix();
+
+	
+	// Road
 	glBegin(GL_POLYGON);
-	glColor3d(0, 0, 0.3);
-	glVertex3d(-UNIT * aspectRatio, -UNIT, -10);
-	glVertex3d(UNIT * aspectRatio, -UNIT, -10);
-	glVertex3d(UNIT * aspectRatio, UNIT, -10);
-	glVertex3d(-UNIT * aspectRatio, UNIT, -10);
+	glColor3d(0, 0, 0);
+	glVertex3d(-UNIT * aspectRatio, -UNIT, -9);
+	glVertex3d(UNIT * aspectRatio, -UNIT, -9);
+	glVertex3d(UNIT * aspectRatio, -UNIT / 2, -9);
+	glVertex3d(-UNIT * aspectRatio, -UNIT / 2, -9);
+	glEnd();
+
+	// Sky and bushes
+	glBegin(GL_POLYGON);
+	glColor3d(0.1, 0.6, 0.1);
+	glVertex3d(-UNIT * aspectRatio, -UNIT / 2, -9);
+	glVertex3d(UNIT * aspectRatio, -UNIT / 2, -9);
+	glColor3d(0.1, 0.1, 0.7);
+	glVertex3d(UNIT * aspectRatio, UNIT, -9);
+	glVertex3d(-UNIT * aspectRatio, UNIT, -9);
 	glEnd();
 }
-
-
-

@@ -24,6 +24,16 @@ void square0()
 	glEnd();
 }
 
+void circleD(double radius, double depth)
+{
+	glBegin(GL_POLYGON);
+	for (double theta = 0; theta < 2 * PI; theta += 0.1)
+	{
+		glVertex3d(radius * cos(theta), radius * sin(theta), depth);
+	}
+	glEnd();
+}
+
 void rectangleD(double x1, double y1, double x2, double y2, double z)
 {
 	glBegin(GL_POLYGON);
@@ -36,7 +46,67 @@ void rectangleD(double x1, double y1, double x2, double y2, double z)
 
 void ambulance()
 {
-	rectangleD(-400, -200, 400, 200, 2);
+	char stringO_1[] = "AMBULANCE";
+
+	// Display Text
+	glPushMatrix();
+	glTranslatef(-90, -100, 3);
+	glScaled(0.5, 0.5, 0);
+	glColor3f(1, 0, 0);
+	drawText(stringO_1);
+	glPopMatrix();
+
+	// Ambulance Body
+	glColor3d(1, 1, 1);
+	rectangleD(-350, -200, 350, 200, 2);
+	
+	// Ambulance Engine
+	glBegin(GL_POLYGON);
+	glColor3d(1, 1, 1);
+	glVertex3d(355, -200, 2);
+	glVertex3d(650, -200, 2);
+	glVertex3d(650, -65, 2);
+	glVertex3d(635, -50, 2);
+	glVertex3d(550, -50, 2);
+	glVertex3d(500, 100, 2);
+	glVertex3d(355, 100, 2);
+	glEnd();
+	
+	// Lights
+	glColor3d(0, 0, 1);
+	rectangleD(380, 100, 420, 140, 2);
+	glColor3d(1, 0, 0);
+	rectangleD(440, 100, 480, 140, 2);
+
+	// Back Tire
+	glPushMatrix();
+	glTranslated(-150, -210, 0);
+	glColor3d(0, 0, 0);		// Tire
+	circleD(75, 3);
+	glColor3d(0.8, 0, 0);	// Rim
+	circleD(50, 4);
+	glPopMatrix();
+
+	//Front Tire
+	glPushMatrix();
+	glTranslated(500, -210, 0);
+	glColor3d(0, 0, 0);		// Tire
+	circleD(75, 3);
+	glColor3d(0.8, 0, 0);	// Rim
+	circleD(50, 4);
+	glPopMatrix();
+
+	//Window Back
+	glColor3d(0.7, 0.7, 1);
+	rectangleD(-300, 0, 300, 150, 3);
+
+	// Window Front
+	glBegin(GL_POLYGON);
+	glVertex3d(375, -50, 3);
+	glVertex3d(520, -50, 3);
+	glVertex3d(480, 75, 3);
+	glVertex3d(375, 75, 3);
+	glEnd();
 }
 
 

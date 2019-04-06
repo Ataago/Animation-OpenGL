@@ -15,7 +15,7 @@ void frame15()
 
 	glPushMatrix();
 	glTranslated(moveX_Amb, 0, 0);
-	glTranslated(-UNIT * aspectRatio + 400, -400, 0);
+	glTranslated(-UNIT * aspectRatio - 400, -400, 0);
 	ambulance();
 	glPopMatrix();
 

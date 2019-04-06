@@ -16,13 +16,15 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"  // Remove deprecation warnings
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <math.h>
 
 
 #include "variables.h"
-#include "Objects.h"
 #include "writeText.h"
+#include "Objects.h"
 #include "animate_textZoom.h"
 #include "animate_walk.h"
 #include "animate_fall.h"

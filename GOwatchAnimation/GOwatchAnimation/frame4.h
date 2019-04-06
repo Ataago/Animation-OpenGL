@@ -163,7 +163,6 @@ void passerby()
 	glPopMatrix();
 
 
-	glColor3f(1, 0, 0);
 
 	// Right Leg
 	glPushMatrix();
