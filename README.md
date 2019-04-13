@@ -3,7 +3,7 @@ Smart Watch Advertisement Animation using OpenGL.
 
 ## Story Line
 
-
+```
 1.	Frame  (TEXT) - Scene I
 a.	2015
 
@@ -126,6 +126,6 @@ i.	Mohammed Ataaur Rahaman
 ii.	Chandana KS
 iii. Arvind Babu
 	
-	
+	```
 	
 
