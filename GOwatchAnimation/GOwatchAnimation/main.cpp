@@ -3,7 +3,7 @@
 //  GO watch Animation OpenGL
 //
 //  Created by Mohammed Ataa on 7/03/19.
-//  Copyright © 2019 Ataago. All rights reserved.
+//  Copyright ï¿½ 2019 Ataago. All rights reserved.
 //
 
 
