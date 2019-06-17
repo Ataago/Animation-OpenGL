@@ -3,7 +3,7 @@
 //  GO watch Animation OpenGL
 //
 //  Created by Mohammed Ataa on 7/03/19.
-//  Copyright © 2019 Ataago. All rights reserved.
+//  Copyright ï¿½ 2019 Ataago. All rights reserved.
 //
 //	GO smart Watch Animated AD.
 //	Press Spacebar to Play...
@@ -45,7 +45,7 @@ void frameEnd()
 	drawText(stringEnd_4);
 	glPopMatrix();
 
-	char stringEnd_5[] = "Chandana KS [1DS16CS7  ]";
+	char stringEnd_5[] = "KS Chandana [1DS16CS716]";
 	glPushMatrix();
 	glTranslatef(300, -400, 0);
 	glScaled(0.4, 0.4, 0);
