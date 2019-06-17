@@ -1,5 +1,6 @@
 # Animation-OpenGL
 Smart Watch Advertisement Animation using OpenGL.
+	Wearable computers are expected to become the next big thing but popular press is divided on whether they will be successful. In this paper we review the existing literature on one type of wearable - smartwatches - and extend their definition, in addition to highlighting the need to understand users' everyday appropriation of these technologies. We present initial findings from an on going interview study with ten early adopters that is, to the best of our knowledge, the first to investigate why and how people use smartwatches in real life. We describe everyday use of smartwatches, highlight the added value seen by users, and identify the limitations to mass adoption as expressed by current users.
 
 ## Story Line
 
@@ -127,5 +128,9 @@ ii.	Chandana KS
 iii. Arvind Babu
 	
 	```
-	
+
+#Contributers
+- Mohammed Ataaur Rahaman
+- K S Chandana
+- Arvind Babu
 
