@@ -130,11 +130,11 @@ iii. Arvind Babu
 ```
 # Benefits
 These are some of the points how Education can benefit with Smart Watches.
-• Get Real time notifications about classes and exams: Android Wear powered smart watches can be connected with school management apps that will notify students of classes in a day and changes in schedules in real time.
-• Assist teachers in marking attendance: Apps for the school management systems can integrate with Android Wear and assist teachers to mark student attendance by tracking student presence in a classroom.
-• Plan daily study routines during class: With the easy access that these devices provide students can immediately note down and plan activities & assignments created by teachers in classes.
-• Keep track of fitness during exercise/games: With inbuilt sensors in the devices, students can keep track of their workout in school games/gym and school physical instructors can plan specific regimens for their students using this data.
-• Voice Recording: Students can record lectures right from the Android Wear without fumbling with recording devices and later transfer to their phones or PCs for future reference.
+- Get Real time notifications about classes and exams: Android Wear powered smart watches can be connected with school management apps that will notify students of classes in a day and changes in schedules in real time.
+-  Assist teachers in marking attendance: Apps for the school management systems can integrate with Android Wear and assist teachers to mark student attendance by tracking student presence in a classroom.
+-  Plan daily study routines during class: With the easy access that these devices provide students can immediately note down and plan activities & assignments created by teachers in classes.
+- Keep track of fitness during exercise/games: With inbuilt sensors in the devices, students can keep track of their workout in school games/gym and school physical instructors can plan specific regimens for their students using this data.
+- Voice Recording: Students can record lectures right from the Android Wear without fumbling with recording devices and later transfer to their phones or PCs for future reference.
 
 # Contributors
 - Mohammed Ataaur Rahaman
