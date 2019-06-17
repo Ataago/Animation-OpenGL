@@ -127,10 +127,10 @@ i.	Mohammed Ataaur Rahaman
 ii.	Chandana KS
 iii. Arvind Babu
 	
-	```
+```
 
-#Contributers
+
+# Contributers
 - Mohammed Ataaur Rahaman
 - K S Chandana
 - Arvind Babu
-
